@@ -1,0 +1,6 @@
+{
+  "name": "Vogue & Velvet",
+  "description": "Fashion, Beauty & Lifestyle Editorial Magazine with AI Style Assistant",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
