@@ -98,12 +98,12 @@ const INITIAL_BLOGS: Article[] = [
     category: "Fashion",
     slug: "copenhagen-street-style-playbook",
     featured: true,
-    image: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1200&q=80",
+    image: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=50",
     date: "Oct 12, 2026",
     readTime: "11 min read",
     author: {
       name: "Chloe V.",
-      avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80"
+      avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=50"
     },
     likes: 482,
     excerpt: "An exhaustive masterclass on mastering the Nordic nonchalant aesthetic with oversized pastel blazers, slouchy denim, chunky loafers, and TikTok-approved layering techniques.",
@@ -173,12 +173,12 @@ const INITIAL_BLOGS: Article[] = [
     category: "Beauty",
     slug: "skin-cycling-slugging-guide",
     featured: false,
-    image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=50",
     date: "Oct 10, 2026",
     readTime: "10 min read",
     author: {
       name: "Maya S.",
-      avatar: "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=200&q=80"
+      avatar: "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=200&q=50"
     },
     likes: 512,
     excerpt: "Stop wrecking your skin barrier with harsh, overlapping chemical actives. Here is the ultimate dermatologist-backed guide to skin cycling, barrier health, and slugging for glassy dewy skin.",
@@ -211,12 +211,12 @@ const INITIAL_BLOGS: Article[] = [
     category: "Lifestyle",
     slug: "pinterest-pastel-room-aesthetic",
     featured: false,
-    image: "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=50",
     date: "Oct 08, 2026",
     readTime: "9 min read",
     author: {
       name: "Hana N.",
-      avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80"
+      avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=50"
     },
     likes: 384,
     excerpt: "Transform your bedroom and living space into a calming pastel dreamscape using cloud mirrors, LED sunset lamps, waffle knits, and dedicated matcha station corners.",
@@ -244,12 +244,12 @@ const INITIAL_BLOGS: Article[] = [
     category: "Wellness",
     slug: "matcha-lattes-slow-living",
     featured: false,
-    image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=800&q=50",
     date: "Oct 05, 2026",
     readTime: "9 min read",
     author: {
       name: "Dr. Clara V.",
-      avatar: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=80"
+      avatar: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=50"
     },
     likes: 620,
     excerpt: "How mindful morning rituals, ceremonial grade matcha, breathwork, and strict phone-free hours are curing digital burnout and anxiety.",
@@ -275,12 +275,12 @@ const INITIAL_BLOGS: Article[] = [
     category: "Style",
     slug: "vintage-thrift-flipping-upcycle",
     featured: false,
-    image: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=50",
     date: "Oct 02, 2026",
     readTime: "10 min read",
     author: {
       name: "Chloe V.",
-      avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80"
+      avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=50"
     },
     likes: 410,
     excerpt: "Turn thrift store oversized blazers and men's button-downs into custom Y2K corset tops, lace-up details, and asymmetric skirts with zero waste.",
@@ -308,12 +308,12 @@ const INITIAL_BLOGS: Article[] = [
     category: "Beauty",
     slug: "clean-girl-makeup-soft-grunge",
     featured: false,
-    image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=50",
     date: "Sep 28, 2026",
     readTime: "8 min read",
     author: {
       name: "Maya S.",
-      avatar: "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=200&q=80"
+      avatar: "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=200&q=50"
     },
     likes: 360,
     excerpt: "Blending dewy glazed skin and laminated brows with smudged espresso eyeliner and glossy plum lips for the ultimate moody beauty paradox.",
@@ -512,7 +512,7 @@ export default function App() {
       {/* Top Chic Pastel Banner */}
       <div className="bg-gradient-to-r from-[#FCE7F3] via-[#EDE9FE] to-[#DCFCE7] text-[#4A3B4C] text-[11px] py-2 text-center tracking-widest uppercase font-medium shadow-xs transition-colors flex items-center justify-center space-x-3" role="region" aria-label="Announcement banner">
         <Sparkles className="w-3.5 h-3.5 text-[#9D79B5]" aria-hidden="true" />
-        <span>New Tab Classification Mode Active — <button onClick={() => setIsSeoHubOpen(true)} className="underline hover:text-[#7C3AED] font-semibold" aria-label="View SEO Inspector Hub">View SEO Inspector Hub</button></span>
+        <span>Optimized Images Under 100KB (Web Optimized) — <button onClick={() => setIsSeoHubOpen(true)} className="underline hover:text-[#7C3AED] font-semibold" aria-label="View SEO Inspector Hub">View SEO Inspector Hub</button></span>
       </div>
 
       {/* Main Header */}
@@ -658,10 +658,10 @@ export default function App() {
       <main className="flex-grow max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8">
         
         {/* Notice Banner */}
-        <div className="mb-8 p-4 bg-[#FDF2F4] dark:bg-[#252033] rounded-2xl border border-[#F7F2F7] dark:border-gray-800 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs" role="region" aria-label="New tab navigation notice">
+        <div className="mb-8 p-4 bg-[#FDF2F4] dark:bg-[#252033] rounded-2xl border border-[#F7F2F7] dark:border-gray-800 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs" role="region" aria-label="Image optimization notice">
           <div className="flex items-center space-x-2">
             <span className="w-2.5 h-2.5 rounded-full bg-[#9D79B5] animate-pulse" aria-hidden="true"></span>
-            <span>Every time a classification is chosen, it opens into a brand new browser tab with descriptive anchor links!</span>
+            <span>All editorial images optimized for web performance (&lt; 100KB with lossless compression &amp; referrerPolicy="no-referrer").</span>
           </div>
           <div className="flex space-x-2">
             <button 
@@ -681,7 +681,7 @@ export default function App() {
             <div className="relative bg-white dark:bg-[#252033] rounded-3xl overflow-hidden border border-[#F7F2F7] dark:border-gray-800 shadow-xl group transition-all">
               <div className="grid grid-cols-1 lg:grid-cols-12 min-h-[460px]">
                 <div className="lg:col-span-7 relative overflow-hidden min-h-[300px] lg:min-h-full">
-                  <img src={featuredBlog.image} alt={featuredBlog.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" />
+                  <img src={featuredBlog.image} alt={featuredBlog.title} referrerPolicy="no-referrer" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" />
                   <div className="absolute inset-0 bg-gradient-to-t from-purple-950/60 via-transparent lg:hidden" aria-hidden="true"></div>
                   <span className="absolute top-4 left-4 bg-[#9D79B5] text-white text-[10px] uppercase tracking-widest font-semibold px-3.5 py-1.5 rounded-full shadow">
                     Featured {featuredBlog.category} Story
@@ -707,7 +707,7 @@ export default function App() {
 
                   <div className="pt-4 border-t border-[#F7F2F7] dark:border-gray-800 flex items-center justify-between">
                     <div className="flex items-center space-x-3">
-                      <img src={featuredBlog.author.avatar} alt={featuredBlog.author.name} className="w-9 h-9 rounded-full object-cover border border-[#9D79B5]" />
+                      <img src={featuredBlog.author.avatar} alt={featuredBlog.author.name} referrerPolicy="no-referrer" className="w-9 h-9 rounded-full object-cover border border-[#9D79B5]" />
                       <span className="text-xs font-medium">{featuredBlog.author.name}</span>
                     </div>
 
@@ -779,7 +779,7 @@ export default function App() {
                   <article key={blog.id} className="bg-white dark:bg-[#252033] rounded-3xl overflow-hidden border border-[#F7F2F7] dark:border-gray-800 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
                     <div>
                       <div className="relative aspect-[16/10] overflow-hidden cursor-pointer" onClick={() => setSelectedArticleId(blog.id)}>
-                        <img src={blog.image} alt={blog.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out" />
+                        <img src={blog.image} alt={blog.title} referrerPolicy="no-referrer" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out" />
                         <button 
                           onClick={(e) => { e.stopPropagation(); handleClassificationClick(catObj.name, catObj.path); }}
                           className="absolute top-3 left-3 bg-[#FFFBFB]/90 dark:bg-[#1A1622]/90 text-[#4A3B4C] dark:text-[#F3E8FF] text-[10px] uppercase font-semibold tracking-widest px-3 py-1 rounded-full backdrop-blur-sm hover:text-[#9D79B5] inline-flex items-center space-x-1"
@@ -811,7 +811,7 @@ export default function App() {
 
                     <div className="px-6 pb-6 pt-2 border-t border-[#F7F2F7] dark:border-gray-800 flex items-center justify-between text-xs">
                       <div className="flex items-center space-x-2">
-                        <img src={blog.author.avatar} alt={blog.author.name} className="w-7 h-7 rounded-full object-cover border border-[#9D79B5]" />
+                        <img src={blog.author.avatar} alt={blog.author.name} referrerPolicy="no-referrer" className="w-7 h-7 rounded-full object-cover border border-[#9D79B5]" />
                         <span className="font-medium text-gray-700 dark:text-gray-300 text-[11px]">{blog.author.name}</span>
                       </div>
 
@@ -1059,7 +1059,7 @@ export default function App() {
               <div className="space-y-4 max-w-3xl mx-auto text-center">
                 <div className="flex items-center justify-center space-x-4 text-xs text-gray-500 dark:text-purple-300 pt-2">
                   <div className="flex items-center space-x-2">
-                    <img src={selectedArticle.author.avatar} alt={selectedArticle.author.name} className="w-8 h-8 rounded-full object-cover border border-[#9D79B5]" />
+                    <img src={selectedArticle.author.avatar} alt={selectedArticle.author.name} referrerPolicy="no-referrer" className="w-8 h-8 rounded-full object-cover border border-[#9D79B5]" />
                     <span className="font-medium text-[#4A3B4C] dark:text-[#F3E8FF]">{selectedArticle.author.name}</span>
                   </div>
                   <span aria-hidden="true">•</span>
@@ -1071,7 +1071,7 @@ export default function App() {
 
               {/* Cover Image */}
               <div className="rounded-2xl overflow-hidden shadow-lg my-6 max-h-[480px]">
-                <img src={selectedArticle.image} alt={selectedArticle.title} className="w-full h-full object-cover" />
+                <img src={selectedArticle.image} alt={selectedArticle.title} referrerPolicy="no-referrer" className="w-full h-full object-cover" />
               </div>
 
               {/* HTML Content */}
@@ -1082,7 +1082,7 @@ export default function App() {
 
               {/* Author Bio */}
               <div className="max-w-2xl mx-auto my-8 p-6 bg-[#FDF2F4] dark:bg-[#252033] rounded-2xl border border-[#F7F2F7] dark:border-gray-800 flex items-center space-x-4">
-                <img src={selectedArticle.author.avatar} alt={selectedArticle.author.name} className="w-14 h-14 rounded-full object-cover border-2 border-[#9D79B5]" />
+                <img src={selectedArticle.author.avatar} alt={selectedArticle.author.name} referrerPolicy="no-referrer" className="w-14 h-14 rounded-full object-cover border-2 border-[#9D79B5]" />
                 <div>
                   <h4 className="font-serif font-semibold text-sm sm:text-base">{selectedArticle.author.name}</h4>
                   <p className="text-xs text-gray-500 dark:text-purple-300 mt-0.5">Senior Editorial Writer at Vogue &amp; Velvet. Passionate about pastel aesthetics, chic styling, and slow living.</p>
@@ -1267,7 +1267,7 @@ export default function App() {
                   blogs.filter(b => savedIds.includes(b.id)).map(blog => (
                     <div key={blog.id} className="py-3 flex items-center justify-between gap-3">
                       <div className="flex items-center space-x-3 overflow-hidden cursor-pointer" onClick={() => { setIsSavedDrawerOpen(false); setSelectedArticleId(blog.id); }} role="button" tabIndex={0} aria-label={`Read saved story: ${blog.title}`}>
-                        <img src={blog.image} alt={blog.title} className="w-12 h-12 rounded-xl object-cover flex-shrink-0" />
+                        <img src={blog.image} alt={blog.title} referrerPolicy="no-referrer" className="w-12 h-12 rounded-xl object-cover flex-shrink-0" />
                         <div className="overflow-hidden">
                           <h4 className="font-serif text-xs font-semibold truncate hover:text-[#9D79B5]">{blog.title}</h4>
                           <p className="text-[10px] text-gray-400">{blog.category} • {blog.readTime}</p>
